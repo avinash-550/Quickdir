@@ -9,8 +9,8 @@ import os
 import config
 
 class Quickdir:
-    def __init__(self,path="jdirec"):
-        """ initialize path or set it to empty if no argument given"""
+    def __init__(self,path="Quickdir"):
+        """ initialize path or create dir if name given"""
         self.path = path
         try:
             os.mkdir(self.path + '/')
