@@ -7,7 +7,7 @@ Clone the repository and import Quickdir.py file.
 
 ## Usage
 
-Json object structure. Terminating value has to be supplied to end(leaf) nodes in dir structure. Supply 1 if it ends with a file, 0 if it ends with a folder.
+In Json object structure, terminating value has to be supplied to end(leaf) nodes in dir structure. Supply 1 if it ends with a file, 0 if it ends with a folder.
 
 ```json
 json = {"root": {
