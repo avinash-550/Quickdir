@@ -38,7 +38,7 @@ quick.make(config.json2)
 
 ## Applications
 Example 1: HTML project
-```json
+```python
 json = {"root": {
                 "logs": {
                         "test": 0,
@@ -71,7 +71,7 @@ json = {"root": {
 
 
 Example 2: Creating directory structure for a College course.
-```json
+```python
 json2 = {"CSE420": {
                 "cat1": {
                         "alternate material": 0,
