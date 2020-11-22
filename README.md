@@ -33,7 +33,7 @@ quick = Quickdir("Quickdir")
 quick2 = Quickdir("S:/Files")
 
 # Create and pass your json object or edit config.json in config.py
-quick.make(config.json)
+quick.make(config.json2)
 ```
 
 ## Applications
@@ -72,7 +72,7 @@ json = {"root": {
 
 Example 2: Creating directory structure for a College course.
 ```json
-json = {"CSE420": {
+json2 = {"CSE420": {
                 "cat1": {
                         "alternate material": 0,
                         "notes.txt": 1
