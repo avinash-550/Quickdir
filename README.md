@@ -25,23 +25,30 @@ Creating dir using Quickdir object
 ```python
 from Quickdir import Quickdir
 
-# only if using config.json
-from Quickdir import config
-
 # create object of Quickdir class 
 quick = Quickdir("Quickdir")
 
 # give custom path instead of 'Quickdir' if required
 quick2 = Quickdir("S:/Files")
 
-# Create and pass your json object or edit config.json in config.py
-quick.make(config.json2)
+#Create your dict/json
+x = {"root": {
+    "folder1":{
+        "subfolder1":0,
+        "file1.txt": 1
+        }
+    }
+}
+
+
+# pass x to make function of quick object
+quick.make(x)
 ```
 
 ## Applications
 Example 1: HTML project
 ```python
-json = {"root": {
+html = {"root": {
                 "logs": {
                         "test": 0,
                         "log.txt": 1
@@ -74,7 +81,7 @@ json = {"root": {
 
 Example 2: Creating directory structure for a College course.
 ```python
-json2 = {"CSE420": {
+college = {"CSE420": {
                 "cat1": {
                         "alternate material": 0,
                         "notes.txt": 1
@@ -115,6 +122,17 @@ json2 = {"CSE420": {
     }
 ```
 
+Accessing premade application templates
+```python
+from Quickdir import config
+
+#college
+x = config.college
+
+# html
+x = config.html
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -123,4 +141,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-© 2020 Avinash 
+&copy; 2020 Avinash 
