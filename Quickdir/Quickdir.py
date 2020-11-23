@@ -6,7 +6,7 @@ Created on Sun Nov 22 08:58:59 2020
 """
 
 import os
-import config
+#import config
 
 class Quickdir:
     def __init__(self,path="Quickdir"):
@@ -41,9 +41,9 @@ class Quickdir:
             
 
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
     
-    quick = Quickdir("hello")
-    quick.make(config.json)
+#     quick = Quickdir("hello")
+#     quick.make(config.json)
       
         

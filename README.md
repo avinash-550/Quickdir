@@ -3,7 +3,9 @@ JSON object to quick directory creator using python.
 
 ## Installation
 
-Clone the repository and import Quickdir.py file.
+```bash
+pip install Quickdir
+```
 
 ## Usage
 
@@ -21,10 +23,10 @@ json = {"folder": {
 
 Creating dir using Quickdir object
 ```python
-import Quickdir
+from Quickdir import Quickdir
 
 # only if using config.json
-import config
+from Quickdir import config
 
 # create object of Quickdir class 
 quick = Quickdir("Quickdir")
@@ -119,3 +121,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+© 2020 Avinash 
