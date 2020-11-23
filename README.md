@@ -31,7 +31,7 @@ quick = Quickdir("Quickdir")
 # give custom path instead of 'Quickdir' if required
 quick2 = Quickdir("S:/Files")
 
-#Create your dict/json
+# create your dir structure as dict/json
 x = {"root": {
     "folder1":{
         "subfolder1":0,
@@ -126,7 +126,7 @@ Accessing premade application templates
 ```python
 from Quickdir import config
 
-#college
+# college
 x = config.college
 
 # html
