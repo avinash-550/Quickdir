@@ -5,7 +5,7 @@ Created on Sun Nov 22 11:38:35 2020
 @author: AVINASH
 """
 
-json = {"CSE420": {
+college = {"CSE420": {
                 "cat1": {
                         "alternate material": 0,
                         "notes.txt": 1
@@ -45,7 +45,7 @@ json = {"CSE420": {
         } 
     }
 
-json2 = {"root": {
+html = {"root": {
                 "logs": {
                         "test": 0,
                         "log.txt": 1

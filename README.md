@@ -21,7 +21,7 @@ json = {"folder": {
 
 ```
 
-Creating dir using Quickdir object
+Creating directories using Quickdir object
 ```python
 from Quickdir import Quickdir
 
