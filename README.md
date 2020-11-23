@@ -41,7 +41,7 @@ x = {"root": {
 }
 
 
-# pass x to make function of quick object
+# make directories
 quick.make(x)
 ```
 
